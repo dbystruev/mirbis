@@ -8,6 +8,10 @@ extension Droplet {
             return json
         }
 
+        get("privet") { req in
+            return "Привет, Денис!"
+        }
+        
         get("plaintext") { req in
             return "Hello, world!"
         }
